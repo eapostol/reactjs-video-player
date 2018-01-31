@@ -15,3 +15,6 @@ ReactDOM.render(
 		<App />
 	</Provider>
 	, document.querySelector('.container'));
+// 2nd argument represents where to output the content to.
+// the store will contain the data, passed onto the child componet
+// (app), and all of it is rendered within .container in index.html
