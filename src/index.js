@@ -5,8 +5,7 @@ import { createStore, applyMiddleware } from 'redux';
 import App from './components/app';
 import reducers from './reducers';
 
-const API_KEY = 'AIzaSyBvvDH0KWcCqgWUZL5bLLYJ75mReUdzrVk';
-// npm install --save youtube-api-search
+
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
